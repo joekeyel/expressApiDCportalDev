@@ -99,6 +99,7 @@ require('./dcportalapi/inventory/DC_PDU')(app);
 require('./dcportalapi/inventory/DC_RACK')(app);
 require('./dcportalapi/inventory/DC_SITE')(app);
 require('./dcportalapi/inventory/DC_UPS')(app);
+require('./dcportalapi/inventory/DC_LOCATION')(app);
 
 require('./dcportalapi/inventory/create/DC_CRAC_CREATE')(app);
 require('./dcportalapi/inventory/create/DC_LOCATION_CREATE')(app);
